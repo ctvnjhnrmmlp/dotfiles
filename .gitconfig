@@ -1,0 +1,24 @@
+[includeIf "gitdir:~/Documents/organization/psi/"]
+  path = .gitconfig-psi
+[includeIf "gitdir:~/Documents/professional/ctvnjhnrmmlp/"]
+  path = .gitconfig-ctvnjhnrmmlp
+[includeIf "gitdir:~/Documents/professional/cc/"]
+  path = .gitconfig-ctvnjhnrmmlp
+[includeIf "gitdir:~/Documents/professional/uc/"]
+  path = .gitconfig-ctvnjhnrmmlp
+[includeIf "gitdir:~/Documents/professional/devcon/"]
+  path = .gitconfig-ctvnjhnrmmlp
+[includeIf "gitdir:~/.dotfiles/"]
+  path = .gitconfig-ctvnjhnrmmlp
+[includeIf "gitdir:~/Documents/professional/awsugph/"]
+  path = .gitconfig-ctvnjhnrmmlp
+[includeIf "gitdir:~/Documents/professional/awsccuc/"]
+  path = .gitconfig-awsccuc
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[init]
+	defauaultBranch = main
+	defaultBranch = main
