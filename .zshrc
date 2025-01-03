@@ -44,3 +44,6 @@ export PYENV_ROOT="$HOME/.pyenv"
 eval "$(pyenv init -)"
 
 export VI_MODE_ESC_INSERT="jk"
+
+bindkey '^[[A' history-substring-search-up
+bindkey '^[[B' history-substring-search-down
