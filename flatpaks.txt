@@ -1,0 +1,44 @@
+AnyDesk	com.anydesk.Anydesk	6.4.0	stable	system
+Bitwarden	com.bitwarden.desktop	2024.12.0	stable	system
+Discord	com.discordapp.Discord	0.0.74	stable	system
+Eyedropper	com.github.finefindus.eyedropper	2.0.1	stable	system
+Google Chrome	com.google.Chrome	131.0.6778.204-1	stable	system
+Extension Manager	com.mattjakeman.ExtensionManager	0.6.0	stable	system
+Spotify	com.spotify.Client	1.2.50.335.g5e2860a8	stable	system
+Visual Studio Code	com.visualstudio.code	1.96.1	stable	system
+HandBrake	fr.handbrake.ghb	1.9.0	stable	system
+Flatsweep	io.github.giantpinkrobots.flatsweep	v2024.12.23	stable	system
+Zen	io.github.zen_browser.zen	1.0.2-b.5	stable	system
+Pomodoro	io.gitlab.idevecore.Pomodoro	1.4.1	stable	system
+Mission Center	io.missioncenter.MissionCenter	0.6.2	stable	system
+Neovim	io.neovim.nvim	0.10.2	stable	system
+Audacity	org.audacityteam.Audacity	3.7.1	stable	system
+Codecs	org.audacityteam.Audacity.Codecs		stable	system
+Chromium Web Browser	org.chromium.Chromium	131.0.6778.204	stable	system
+Codecs	org.chromium.Chromium.Codecs		stable	system
+Freedesktop Platform	org.freedesktop.Platform	freedesktop-sdk-23.08.27	23.08	system
+Freedesktop Platform	org.freedesktop.Platform	freedesktop-sdk-24.08.10	24.08	system
+Mesa	org.freedesktop.Platform.GL.default	24.3.1	23.08	system
+Mesa (Extra)	org.freedesktop.Platform.GL.default	24.3.1	23.08-extra	system
+Mesa	org.freedesktop.Platform.GL.default	24.3.1	24.08	system
+Mesa (Extra)	org.freedesktop.Platform.GL.default	24.3.1	24.08extra	system
+Intel VAAPI driver	org.freedesktop.Platform.VAAPI.Intel		23.08	system
+Intel VAAPI driver	org.freedesktop.Platform.VAAPI.Intel		24.08	system
+FFmpeg extension with extra codecs	org.freedesktop.Platform.ffmpeg-full		24.08	system
+openh264	org.freedesktop.Platform.openh264	2.1.0	2.2.0	system
+openh264	org.freedesktop.Platform.openh264	2.4.1	2.4.1	system
+Freedesktop SDK	org.freedesktop.Sdk	freedesktop-sdk-23.08.27	23.08	system
+Freedesktop SDK	org.freedesktop.Sdk	freedesktop-sdk-24.08.10	24.08	system
+GNOME Application Platform version 45	org.gnome.Platform		45	system
+GNOME Application Platform version 46	org.gnome.Platform		46	system
+GNOME Application Platform version 47	org.gnome.Platform		47	system
+GNOME Software Development Kit version 46	org.gnome.Sdk		46	system
+Adwaita theme	org.kde.KStyle.Adwaita		5.15-23.08	system
+KDE Application Platform	org.kde.Platform		5.15-23.08	system
+QGnomePlatform	org.kde.PlatformTheme.QGnomePlatform		5.15-23.08	system
+QAdwaitaDecorations	org.kde.WaylandDecoration.QAdwaitaDecorations		5.15-23.08	system
+QGnomePlatform-decoration	org.kde.WaylandDecoration.QGnomePlatform-decoration		5.15-23.08	system
+VLC	org.videolan.VLC	3.0.21	stable	system
+WezTerm	org.wezfurlong.wezterm	20240203-110809-5046fc22	stable	system
+Insomnia	rest.insomnia.Insomnia	1:10.0.0	stable	system
+Zoom	us.zoom.Zoom	6.3.0.5527	stable	system
