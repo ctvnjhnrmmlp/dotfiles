@@ -5,8 +5,7 @@
 ### Stow
 
 ```
-sudo pacman -S stow (for Arch distro)
-sudo dnf install stow (for Fedora distro)
+sudo dnf install stow
 ```
 
 ## Installation
