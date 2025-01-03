@@ -14,6 +14,7 @@ plug "zap-zsh/zap-prompt"
 plug "zsh-users/zsh-syntax-highlighting"
 plug "romkatv/powerlevel10k"
 plug "hlissner/zsh-autopair"
+plug "zap-zsh/vim"
 
 # Load and initialise completion system
 autoload -Uz compinit
@@ -41,3 +42,5 @@ export PYENV_ROOT="$HOME/.pyenv"
 [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
 
 eval "$(pyenv init -)"
+
+export VI_MODE_ESC_INSERT="jk"
