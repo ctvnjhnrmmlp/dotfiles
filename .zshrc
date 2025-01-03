@@ -13,10 +13,13 @@ plug "zsh-users/zsh-syntax-highlighting"
 plug "zap-zsh/supercharge"
 plug "zap-zsh/zap-prompt"
 plug "zap-zsh/vim"
+plug "zap-zsh/nvm"
 plug "atoftegaard-git/zsh-omz-autocomplete"
 plug "romkatv/powerlevel10k"
 plug "hlissner/zsh-autopair"
 plug "MAHcodes/distro-prompt"
+plug "Aloxaf/fzf-tab"
+plug "kutsan/zsh-system-clipboard"
 
 # Load and initialise completion system
 autoload -Uz compinit
