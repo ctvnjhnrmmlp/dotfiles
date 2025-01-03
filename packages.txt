@@ -2203,6 +2203,7 @@ zix-0.4.2-2.fc41.x86_64
 zlib-ng-compat-2.1.7-3.fc41.i686
 zlib-ng-compat-2.1.7-3.fc41.x86_64
 zlib-ng-compat-devel-2.1.7-3.fc41.x86_64
+zoxide-0.9.4-3.fc41.x86_64
 zram-generator-1.1.2-12.fc41.x86_64
 zram-generator-defaults-1.1.2-12.fc41.noarch
 zsh-5.9-15.fc41.x86_64
