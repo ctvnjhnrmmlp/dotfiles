@@ -1,0 +1,15 @@
+{
+  "prefs": {
+    "WelcomeTipsFeaturesUsed": "[{\"Hint\":\"CreateBlock\"}]",
+    "AIRequestLimitInfo": "{\"limit\":40,\"num_requests_used_since_refresh\":0,\"next_refresh_time\":\"2024-08-17T23:52:40.415558Z\"}",
+    "CrashReportingEnabled": "true",
+    "ReceivedReferralTheme": "\"Inactive\"",
+    "SameLinePromptBlockState": "\"DoNotShow\"",
+    "AgentModeOnboardingBlockShown": "true",
+    "ExperimentId": "53d86f38-e8a4-46ee-b614-baae8c52f98e",
+    "AIAssistantRequestLimitInfo": "{\"limit\":40,\"num_requests_used_since_refresh\":0,\"next_refresh_time\":\"2024-08-17T23:52:40.415558Z\"}",
+    "ChangelogVersions": "{\"v0.2024.07.23.08.02.stable_01\":true}",
+    "TelemetryEnabled": "true",
+    "ShowWarningBeforeQuitting": "false"
+  }
+}
