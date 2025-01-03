@@ -15,6 +15,7 @@ plug "zap-zsh/zap-prompt"
 plug "zap-zsh/vim"
 plug "romkatv/powerlevel10k"
 plug "hlissner/zsh-autopair"
+plug "MAHcodes/distro-prompt"
 
 # Load and initialise completion system
 autoload -Uz compinit
@@ -25,7 +26,6 @@ compinit
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # pnpm
 export PNPM_HOME="/home/rayleigh/.local/share/pnpm"
@@ -38,7 +38,6 @@ esac
 . "/home/rayleigh/.deno/env"
 
 export PYENV_ROOT="$HOME/.pyenv"
-
 [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
 
 eval "$(pyenv init -)"
