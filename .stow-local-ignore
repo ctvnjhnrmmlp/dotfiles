@@ -24,5 +24,6 @@ _darcs
 ^/README.*
 ^/LICENSE.*
 ^/COPYING
-
-*.txt
+^/flatpaks.*
+^/packages.*
+^/snaps.*
