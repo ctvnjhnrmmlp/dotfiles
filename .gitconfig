@@ -1,5 +1,9 @@
 [includeIf "gitdir:~/Documents/organization/psi/"]
   path = .gitconfig-psi
+[includeIf "gitdir:~/Documents/organization/cybimu/"]
+  path = .gitconfig-ctvnjhnrmmlp
+[includeIf "gitdir:~/Documents/organization/theblokc/"]
+  path = .gitconfig-ctvnjhnrmmlp
 [includeIf "gitdir:~/Documents/professional/ctvnjhnrmmlp/"]
   path = .gitconfig-ctvnjhnrmmlp
 [includeIf "gitdir:~/Documents/professional/cc/"]

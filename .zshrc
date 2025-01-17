@@ -59,3 +59,10 @@ POWERLEVEL9K_VCS_MODIFIED_COLOR="#f5e342"
 POWERLEVEL9K_VCS_UNTRACKED_COLOR="#f54242"
 
 eval "$(zoxide init zsh)"
+
+# bun completions
+[ -s "/home/rayleigh/.bun/_bun" ] && source "/home/rayleigh/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
