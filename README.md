@@ -20,5 +20,18 @@ cd dotfiles
 then use GNUW stow to create symlinks
 
 ```
-stow .
+for package in */; do stow "$package"; done
+```
+
+or forcefully stow them
+
+```
+for package in */; do stow -v --adopt "$package"; done
+```
+
+stow .config explicitly
+
+```
+stow -v -t ~/.config .config
+
 ```
