@@ -42,3 +42,10 @@ case ":$PATH:" in
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
+. "/home/rayleigh/.deno/env"
+# bun completions
+[ -s "/home/rayleigh/.bun/_bun" ] && source "/home/rayleigh/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
