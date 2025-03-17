@@ -16,3 +16,4 @@ cargo
 rustc
 tmux
 syncthing
+inotify-tools
