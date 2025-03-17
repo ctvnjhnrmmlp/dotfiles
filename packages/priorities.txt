@@ -9,3 +9,8 @@ wget
 lazygit
 snap
 snapd
+pnpm
+deno
+bun
+cargo
+rustc
