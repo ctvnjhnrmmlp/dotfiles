@@ -25,46 +25,12 @@ plug "kutsan/zsh-system-clipboard"
 autoload -Uz compinit
 compinit
 
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-# pnpm
-export PNPM_HOME="/home/rayleigh/.local/share/pnpm"
-case ":$PATH:" in
-  *":$PNPM_HOME:"*) ;;
-  *) export PATH="$PNPM_HOME:$PATH" ;;
-esac
-# pnpm end
-
-. "/home/rayleigh/.deno/env"
-
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 export PYENV_ROOT="$HOME/.pyenv"
 [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
-
-eval "$(pyenv init -)"
-
-export VI_MODE_ESC_INSERT="jk"
-
-bindkey '^[[A' history-substring-search-up
-bindkey '^[[B' history-substring-search-down
-
-POWERLEVEL9K_DIR_BACKGROUND="#161616"
-POWERLEVEL9K_DIR_FOREGROUND="#FFFFFF"
-POWERLEVEL9K_DIR_ANCHOR_FOREGROUND="#FFFFFF"
-POWERLEVEL9K_VCS_BRANCH_COLOR="#42f54b"
-POWERLEVEL9K_VCS_MODIFIED_COLOR="#f5e342"
-POWERLEVEL9K_VCS_UNTRACKED_COLOR="#f54242"
-
-eval "$(zoxide init zsh)"
-
-# bun completions
-[ -s "/home/rayleigh/.bun/_bun" ] && source "/home/rayleigh/.bun/_bun"
-
-# bun
-export BUN_INSTALL="$HOME/.bun"
-export PATH="$BUN_INSTALL/bin:$PATH"
-
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+eval "$(pyenv init - zsh)"

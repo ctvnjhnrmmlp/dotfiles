@@ -1,0 +1,9 @@
+zsh
+powerlevel10k
+zap (and other related packages)
+nvm
+pyenv
+ranger
+brew
+wget
+lazygit
