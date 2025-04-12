@@ -1,3 +1,5 @@
+https://chatgpt.com/share/67faaa39-3710-800a-ba96-ddedb7006e16
+
 zsh
 powerlevel10k
 zap (and other related packages)
@@ -20,3 +22,7 @@ inotify-tools
 asciinema
 yay
 paru
+nvim
+vim
+docker
+docker-desktop
