@@ -18,3 +18,5 @@ tmux
 syncthing
 inotify-tools
 asciinema
+yay
+paru
