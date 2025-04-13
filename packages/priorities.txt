@@ -26,3 +26,8 @@ nvim
 vim
 docker
 docker-desktop
+ripgrep
+fzf
+fd
+bat
+exa
