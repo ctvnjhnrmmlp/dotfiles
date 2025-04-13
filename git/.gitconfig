@@ -1,24 +1,24 @@
-[includeIf "gitdir:~/Documents/organization/psi/"]
+[includeIf "gitdir:~/Documents/org/psi/"]
   path = .gitconfig-psi
-[includeIf "gitdir:~/Documents/organization/cybimu/"]
+[includeIf "gitdir:~/Documents/org/cybimu/"]
   path = .gitconfig-ctvnjhnrmmlp
-[includeIf "gitdir:~/Documents/organization/theblokc/"]
+[includeIf "gitdir:~/Documents/org/theblokc/"]
   path = .gitconfig-ctvnjhnrmmlp
-[includeIf "gitdir:~/Documents/professional/professional/notations/"]
+[includeIf "gitdir:~/Documents/prof/prof/notations/"]
   path = .gitconfig-ctvnjhnrmmlp
-[includeIf "gitdir:~/Documents/professional/professional/sandbox/"]
+[includeIf "gitdir:~/Documents/prof/prof/sandbox/"]
   path = .gitconfig-ctvnjhnrmmlp
-[includeIf "gitdir:~/Documents/professional/cc/"]
+[includeIf "gitdir:~/Documents/prof/cc/"]
   path = .gitconfig-ctvnjhnrmmlp
-[includeIf "gitdir:~/Documents/professional/uc/"]
+[includeIf "gitdir:~/Documents/prof/uc/"]
   path = .gitconfig-ctvnjhnrmmlp
-[includeIf "gitdir:~/Documents/professional/devcon/"]
+[includeIf "gitdir:~/Documents/prof/devcon/"]
   path = .gitconfig-ctvnjhnrmmlp
 [includeIf "gitdir:~/.dotfiles/"]
   path = .gitconfig-ctvnjhnrmmlp
-[includeIf "gitdir:~/Documents/professional/awsugph/"]
+[includeIf "gitdir:~/Documents/prof/awsugph/"]
   path = .gitconfig-ctvnjhnrmmlp
-[includeIf "gitdir:~/Documents/professional/awsccuc/"]
+[includeIf "gitdir:~/Documents/prof/awsccuc/"]
   path = .gitconfig-awsccuc
 [filter "lfs"]
 	clean = git-lfs clean -- %f
