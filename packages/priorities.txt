@@ -33,3 +33,4 @@ bat
 exa
 espanso
 lazydocker
+plymouth
