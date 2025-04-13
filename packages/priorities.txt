@@ -1,4 +1,5 @@
 https://chatgpt.com/share/67faaa39-3710-800a-ba96-ddedb7006e16
+https://chatgpt.com/share/67fb5501-5850-800a-b93c-720cf3065c65 (plymouth config)
 
 zsh
 powerlevel10k
