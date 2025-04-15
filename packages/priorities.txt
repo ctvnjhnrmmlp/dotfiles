@@ -35,3 +35,4 @@ exa
 espanso
 lazydocker
 plymouth
+tmux-plugin-manager
