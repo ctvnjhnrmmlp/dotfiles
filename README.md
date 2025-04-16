@@ -133,5 +133,5 @@ This project is licensed under the [MIT License](LICENSE).
 ## Credits
 
 - Inspired by [Mathias Bynens](https://github.com/mathiasbynens/dotfiles), [Holman](https://github.com/holman/dotfiles), and other dotfile ninjas.
-- Built with by [ctvnjhnrmmlp](https://github.com/ctvnjhnrmmlp)
+- Built by [ctvnjhnrmmlp](https://github.com/ctvnjhnrmmlp)
 
