@@ -28,3 +28,6 @@
 [init]
 	defauaultBranch = main
 	defaultBranch = main
+[user]
+	email = johnrommel.octaviano@gmail.com
+	name = ctvnjhnrmmlp
