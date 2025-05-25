@@ -1,7 +1,7 @@
 [includeIf "gitdir:~/Documents/org/psi/"]
   path = .gitconfig-psi
-[includeIf "gitdir:~/Documents/org/cybimu/"]
-  path = .gitconfig-ctvnjhnrmmlp
+[includeIf "gitdir:~/Documents/prof/org/emathrix/"]
+  path = .gitconfig-ctvnjhnrmmlp-gitlab
 [includeIf "gitdir:~/Documents/org/theblokc/"]
   path = .gitconfig-ctvnjhnrmmlp
 [includeIf "gitdir:~/Documents/prof/prof/notations/"]
