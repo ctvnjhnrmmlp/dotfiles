@@ -1,33 +1,42 @@
-[includeIf "gitdir:~/Documents/org/psi/"]
-  path = .gitconfig-psi
 [includeIf "gitdir:~/Documents/prof/org/emathrix/"]
   path = .gitconfig-ctvnjhnrmmlp-gitlab
-[includeIf "gitdir:~/Documents/org/theblokc/"]
+
+[includeIf "gitdir:~/Documents/prof/org/theblokc/"]
   path = .gitconfig-ctvnjhnrmmlp
+
 [includeIf "gitdir:~/Documents/prof/prof/notations/"]
   path = .gitconfig-ctvnjhnrmmlp
+
 [includeIf "gitdir:~/Documents/prof/prof/sandbox/"]
   path = .gitconfig-ctvnjhnrmmlp
-[includeIf "gitdir:~/Documents/prof/cc/"]
+
+[includeIf "gitdir:~/Documents/prof/org/cc/"]
   path = .gitconfig-ctvnjhnrmmlp
-[includeIf "gitdir:~/Documents/prof/uc/"]
+
+[includeIf "gitdir:~/Documents/prof/org/uc/"]
   path = .gitconfig-ctvnjhnrmmlp
-[includeIf "gitdir:~/Documents/prof/devcon/"]
+
+[includeIf "gitdir:~/Documents/prof/org/devcon/"]
   path = .gitconfig-ctvnjhnrmmlp
+
 [includeIf "gitdir:~/.dotfiles/"]
   path = .gitconfig-ctvnjhnrmmlp
-[includeIf "gitdir:~/Documents/prof/awsugph/"]
+
+[includeIf "gitdir:~/Documents/prof/org/awsugph/"]
   path = .gitconfig-ctvnjhnrmmlp
-[includeIf "gitdir:~/Documents/prof/awsccuc/"]
+
+[includeIf "gitdir:~/Documents/prof/org/awsccuc/"]
   path = .gitconfig-awsccuc
+
 [filter "lfs"]
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process
-	required = true
+  clean = git-lfs clean -- %f
+  smudge = git-lfs smudge -- %f
+  process = git-lfs filter-process
+  required = true
+
 [init]
-	defauaultBranch = main
-	defaultBranch = main
+  defaultBranch = main
+
 [user]
-	email = johnrommel.octaviano@gmail.com
-	name = ctvnjhnrmmlp
+  email = johnrommel.octaviano@gmail.com
+  name = ctvnjhnrmmlp
