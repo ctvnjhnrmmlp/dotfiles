@@ -1,0 +1,15 @@
+ssh/.ssh/id_*
+ssh/.ssh/*_key
+ssh/.ssh/*_key.pub
+
+ssh/.ssh/known_hosts
+ssh/.ssh/known_hosts2
+
+ssh/.ssh/authorized_keys
+
+ssh/.ssh/identity
+ssh/.ssh/identity.pub
+
+ssh/.ssh/*.old
+ssh/.ssh/*.bak
+ssh/.ssh/*.tmp
