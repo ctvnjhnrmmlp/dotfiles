@@ -15,11 +15,17 @@ BASE_PACKAGES=(
   reflector
   stow
   neovim
+  vim
   git
   lazygit
+  docker
+  lazydocker
   zellij
   pnpm
+  cargo
   nvm
+  pyenv
+  rustc
   fzf
   ripgrep
   fd
@@ -43,6 +49,7 @@ BASE_PACKAGES=(
   inetutils
   net-tools
   expac
+  asciinema
 )
 
 # Install base packages
