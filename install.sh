@@ -54,6 +54,7 @@ BASE_PACKAGES=(
   expac
   asciinema
   tealdeer
+  bruno
 )
 
 # Install base packages
