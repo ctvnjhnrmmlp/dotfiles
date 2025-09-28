@@ -1,42 +1,15 @@
-[includeIf "gitdir:~/Documents/prof/org/emathrix/"]
-  path = .gitconfig-ctvnjhnrmmlp-gitlab
+[user]
+  email = johnrommel.octaviano@gmail.com
+  name = ctvnjhnrmmlp
 
-[includeIf "gitdir:~/Documents/prof/org/theblokc/"]
-  path = .gitconfig-ctvnjhnrmmlp
+[init]
+  defaultBranch = main
 
-[includeIf "gitdir:~/Documents/prof/prof/notations/"]
-  path = .gitconfig-ctvnjhnrmmlp
-
-[includeIf "gitdir:~/Documents/prof/prof/sandbox/"]
-  path = .gitconfig-ctvnjhnrmmlp
-
-[includeIf "gitdir:~/Documents/prof/org/cc/"]
-  path = .gitconfig-ctvnjhnrmmlp
-
-[includeIf "gitdir:~/Documents/prof/org/uc/"]
-  path = .gitconfig-ctvnjhnrmmlp
-
-[includeIf "gitdir:~/Documents/prof/org/devcon/"]
-  path = .gitconfig-ctvnjhnrmmlp
-
-[includeIf "gitdir:~/.dotfiles/"]
-  path = .gitconfig-ctvnjhnrmmlp
-
-[includeIf "gitdir:~/Documents/prof/org/awsugph/"]
-  path = .gitconfig-ctvnjhnrmmlp
-
-[includeIf "gitdir:~/Documents/prof/org/awsccuc/"]
-  path = .gitconfig-awsccuc
+[core]
+  editor = nvim
 
 [filter "lfs"]
   clean = git-lfs clean -- %f
   smudge = git-lfs smudge -- %f
   process = git-lfs filter-process
   required = true
-
-[init]
-  defaultBranch = main
-
-[user]
-  email = johnrommel.octaviano@gmail.com
-  name = ctvnjhnrmmlp
