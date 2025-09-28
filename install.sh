@@ -19,8 +19,10 @@ BASE_PACKAGES=(
   git
   lazygit
   docker
+  docker-compose
   lazydocker
   zellij
+  yay
   pnpm
   cargo
   nvm
@@ -51,6 +53,7 @@ BASE_PACKAGES=(
   net-tools
   expac
   asciinema
+  tealdeer
 )
 
 # Install base packages
