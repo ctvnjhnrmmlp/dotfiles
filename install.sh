@@ -26,6 +26,7 @@ BASE_PACKAGES=(
   nvm
   pyenv
   rustc
+  fastfetch
   fzf
   ripgrep
   fd
