@@ -27,7 +27,7 @@ BASE_PACKAGES=(
   eza
   zoxide
   htop
-  htop
+  btop
   curl
   wget
   unzip
