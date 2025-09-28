@@ -42,6 +42,7 @@ BASE_PACKAGES=(
   openssh
   inetutils
   net-tools
+  expac
 )
 
 # Install base packages
