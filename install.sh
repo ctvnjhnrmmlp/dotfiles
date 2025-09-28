@@ -34,6 +34,15 @@ BASE_PACKAGES=(
   tree
   jq
   less
+  # WSL
+  base-devel
+  which
+  zip
+  tar
+  p7zip
+  open-ssh
+  inetutils
+  net-tools
 )
 
 # Install base packages
