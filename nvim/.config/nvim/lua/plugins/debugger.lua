@@ -4,6 +4,7 @@ return {
     dependencies = { "mfussenegger/nvim-dap" },
     config = function()
       require("dap-vscode-js").setup({
+        debugger_path = vim.fn.stdpath("data") .. "/mason/packages/js-debug-adapter",
         adapters = { "pwa-node", "pwa-chrome", "node-terminal" },
       })
 
