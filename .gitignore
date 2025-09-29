@@ -1,15 +1,15 @@
-ssh/.ssh/id_*
-ssh/.ssh/*_key
-ssh/.ssh/*_key.pub
+.secrets
+.env
+*.secret
+*.token
 
-ssh/.ssh/known_hosts
-ssh/.ssh/known_hosts2
+*.pem
+*.key
+*.gpg
 
-ssh/.ssh/authorized_keys
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-ssh/.ssh/identity
-ssh/.ssh/identity.pub
-
-ssh/.ssh/*.old
-ssh/.ssh/*.bak
-ssh/.ssh/*.tmp
+.ssh/
+node_modules/
