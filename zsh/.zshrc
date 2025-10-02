@@ -120,3 +120,11 @@ source /usr/share/nvm/init-nvm.sh
 export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
 
 [ -f ~/.secrets ] && source ~/.secrets
+
+# pnpm
+export PNPM_HOME="/home/rayleighed/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
