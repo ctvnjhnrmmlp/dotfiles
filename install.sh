@@ -55,6 +55,9 @@ BASE_PACKAGES=(
   asciinema
   tealdeer
   bruno
+  github-cli
+  yazi
+  pass
 )
 
 # Install base packages
