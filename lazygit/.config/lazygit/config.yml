@@ -3,3 +3,4 @@ gui:
     activeBorderColor:
       - blue
       - bold
+  commandLogSize: 18
