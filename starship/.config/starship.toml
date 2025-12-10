@@ -16,7 +16,7 @@ $time\
 \n$character"""
 
 [character]
-success_symbol = '➜'
+success_symbol = ' ➜'
 
 [directory]
 style = "fg:#ffffff bg:#000000"
