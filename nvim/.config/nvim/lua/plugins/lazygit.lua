@@ -16,5 +16,10 @@ return {
     { "<leader>lf", "<cmd>LazyGitCurrentFile<cr>",       desc = "LazyGit (file root)" },
     { "<leader>lc", "<cmd>LazyGitConfig<cr>",            desc = "LazyGit Config File" },
     { "<leader>lF", "<cmd>LazyGitFilterCurrentFile<cr>", desc = "Git Filter (Current File)" },
-  }
+  },
+  config = function()
+    vim.g.lazygit_floating_window_scaling_factor = 1.0  -- 100%
+    vim.g.lazygit_floating_window_winblend = 0
+    vim.g.lazygit_floating_window_corner_chars = { " ", " ", " ", " " }
+  end,
 }
