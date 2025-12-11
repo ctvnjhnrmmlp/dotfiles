@@ -6,6 +6,14 @@ return {
         position = "float",
       },
     },
+    picker = {
+      layout = {
+        layout = {
+          width = 0,
+          height = 0,
+        },
+      },
+    },
     dashboard = {
       preset = {
         header = [[
