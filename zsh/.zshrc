@@ -135,8 +135,3 @@ esac
 # [[ ! -f ~/.dotfiles/p10k/.p10k.zsh ]] || source ~/.dotfiles/p10k/.p10k.zsh
 
 eval "$(starship init zsh)"
-
-if [ -z "$TMUX" ]; then
-  tmux new -A -s main
-fi
-
